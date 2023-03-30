@@ -7,7 +7,7 @@ cmd="ncrcat -h -vTime,AS_LWC,AS_Tc,GS_LWC,GS_Tc"
 function cat_data(){
     year=$1
     month=$2
-    echo "${cmd} ${src_dir}/Seeding_criteria_${year}-${month}* SV_${month}_${year}.nc"
+    ${cmd} ${src_dir}/Seeding_criteria_${year}-${month}* SV_${month}_${year}.nc
 }
 
 for year in `seq 2000 2013`; do
