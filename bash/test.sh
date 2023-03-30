@@ -2,7 +2,7 @@
 
 src_dir="/glade/scratch/meghan/Lemhi/Seeding_Variables/SeedingVariables/CTRL/"
 
-cmd="ncrcat -h -vTime,AS_LWC,AS_Tc"
+cmd="ncrcat -h -vTime,AS_LWC,AS_Tc,GS_LWC,GS_Tc"
 
 function cat_data(){
     year=$1
